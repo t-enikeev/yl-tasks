@@ -1,0 +1,11 @@
+.ChatTemplate {
+  height: calc( 100vh - 160px );
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+
+  border-radius: 10px;
+
+}
+

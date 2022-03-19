@@ -1,0 +1,58 @@
+.ChatMessage {
+  flex: 3 0 80px;
+  margin: 10px;
+  position: relative;
+}
+
+.Incoming  {
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.Outcoming  {
+  border-radius: 20px;
+  background: rgba(173, 255, 47, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.ChatMessage > .ant-avatar {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 5px;
+
+  float: left
+}
+.ChatMessage__header {
+  display: flex;
+  justify-content: space-between;
+}
+.ChatMessage__header > .left {
+
+}
+.ChatMessage__button {
+  margin-right: 10px;
+}
+.ChatMessage__username {
+  margin-right: 10px;
+  letter-spacing: 1px;
+  font-weight: 600;
+
+}
+.ChatMessage__text {
+  width: 80%
+}
+
+
+
+.ChatMessage__createdAt {
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.ChatMessage__status {
+  display: inline-block;
+  width: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+
