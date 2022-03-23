@@ -25,7 +25,6 @@ let config = {
     new HtmlWebPackPlugin({
       template: "./index.html",
       filename: "./index.html",
-      base: "/",
     }),
   ],
   //
@@ -77,7 +76,7 @@ let config = {
       //   test: /\.html$/,
       //   use: [
       //     {
-      //       loader: 'html-loader',
+      //       loader: "html-loader",
       //       options: {
       //         minimize: {
       //           removeComments: false,
